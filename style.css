@@ -1,0 +1,149 @@
+h1 {
+	font-family: "Colaborate-Bold",Helvetica,Arial,sans-serif;
+	font-size: 100px;
+}
+
+h2 {
+	font-family: "Colaborate-Bold",Helvetica,Arial,sans-serif;
+	font-size: 50px;
+}
+
+p {
+	font-family: "Colaborate-Thin",Helvetica,Arial,sans-serif;
+	font-size: 50px;
+}
+
+body {
+	background-image:url('charcoal.png');
+	background-repeat:repeat;
+}
+
+input.txtfield {
+	border-radius: 10px;
+	height: 30px;
+	width: 200px;
+	background-color: #F3F8AF;
+	border-style:solid;
+	border-color: #F3F85C;
+}
+
+button {
+	height: 40px;
+	width: 100px;
+	border-style:solid;
+	border-color: #F3F85C;
+	border-radius: 20px;
+	background-color: #F3F85C;
+	font-size: 20px;
+	margin: 10px;
+}
+
+.inline {
+	display: inline;
+}
+
+.red {
+	color: #C9431D;
+}
+
+.smalltxt {
+	font-family: "Colaborate-Medium",Helvetica,Arial,sans-serif;
+	color: #C9431D;
+}
+
+#frame {
+	/*position: absolute;*/
+	margin: 100px auto auto; /* top, right&left, bottom */
+	background-color:#ffffff;
+	width: 1000px;
+	height: 600px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+
+#content {
+	/*position: absolute;*/
+	position: relative;	
+	top: -700px;
+	margin: 100px auto auto; /* top, right&left, bottom */
+	width: 1000px;
+	height: 600px;
+	border-radius: 25px;
+	z-index: 1;
+}
+
+#logo{
+	margin-bottom: 0px;
+}
+
+#slogan {
+	margin-top: 0px;
+	position: relative;
+	left: 80px;
+}
+
+#banner {
+	position: relative;
+	left: 300px;
+	top: 100px;
+}
+
+#yguy-index {
+	position: relative;
+	left: 120px;
+	top: -80px;
+}
+
+#form {
+	position: relative;
+	width: 500px;
+	left: 620px;
+	top: -135px;
+}
+
+.form-unit {
+	margin: 10px
+}
+
+.right {
+	float: right;
+}
+
+#signup {
+	position: relative;
+	right: 170px;
+}
+
+#login {
+	position: relative;
+	left: 95px;
+}
+
+/*** tasking page ***/
+#frame-task {
+	/*position: absolute;*/
+	margin: 20px auto auto; /* top, right&left, bottom */
+	background-color:#ffffff;
+	width: 1200px;
+	height: 1000px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+
+#content-task {
+	/*position: absolute;*/	
+	position: relative;	
+	top: -1100px;
+	margin: 90px auto auto; /* top, right&left, bottom */
+	width: 1200px;
+	height: 1000px;
+	border-radius: 25px;
+	z-index: 1;
+}
+
+#logo-task {
+	position: relative;
+	left: 90px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
