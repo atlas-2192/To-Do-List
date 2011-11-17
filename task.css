@@ -1,0 +1,119 @@
+h1 {
+	font-family: "Colaborate-Bold",Helvetica,Arial,sans-serif;
+	font-size: 100px;
+}
+
+h2 {
+	font-family: "Colaborate-Bold",Helvetica,Arial,sans-serif;
+	font-size: 50px;
+}
+
+p {
+	font-family: "Colaborate-Thin",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+}
+
+body {
+	background-image:url('charcoal.png');
+	background-repeat:repeat;
+}
+
+input.txtfield {
+	border-radius: 10px;
+	height: 30px;
+	width: 200px;
+	background-color: #F3F8AF;
+	border-style:solid;
+	border-color: #F3F85C;
+}
+
+button {/*
+	height: 40px;
+	width: 50px;
+	border-style:solid;
+	border-color: #F3F85C;
+	border-radius: 20px;
+	background-color: #F3F85C;
+	font-size: 20px;
+	margin: 10px;*/
+}
+
+.inline {
+	display: inline;
+}
+
+.red {
+	color: #C9431D;
+}
+
+.smalltxt {
+	font-family: "Colaborate-Medium",Helvetica,Arial,sans-serif;
+	color: #C9431D;
+}
+
+
+/*** tasking page ***/
+#frame-task {
+	/*position: absolute;*/
+	margin: 20px auto auto; /* top, right&left, bottom */
+	background-color:#ffffff;
+	width: 1200px;
+	height: 1000px;
+	border-radius: 25px;
+	opacity: 0.6;
+}
+
+#content-task {
+	/*position: absolute;*/
+	position: relative;
+	top: -1020px;
+	margin: 20px auto auto; /* top, right&left, bottom */
+	width: 1200px;
+	height: 1000px;
+	border-radius: 25px;
+	z-index: 1;
+}
+
+#notepad {
+	float: left;
+	/*z-index: 1;*/
+}
+
+#logo-task {
+	position: relative;
+	left: 330px;
+	top: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#left-column {
+	position: absolute;
+	top: 120px;
+	left: 60px;
+	width: 350px;
+	/*float: left;*/
+	z-index: 2;
+}
+
+#right-column {
+	position: relative;
+	top: 50px;
+	left: 600px;
+}
+
+.playerName {
+	display: inline;
+}
+
+.block {
+	top-margin: 100px;
+	bottom-margin: 100px;
+	height: 150px;
+}
+
+.block2{
+  position:absolute;
+  /*width:400px;
+  height:90px;*/
+}
